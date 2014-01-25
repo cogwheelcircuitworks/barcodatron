@@ -6,6 +6,7 @@
 ./barcode_flask/static/WhatsGarbage.jpg
 ./barcode_flask/templates/form.html
 ./barcode_flask/templates/main.html
+./barcode_flask/static/jquery-barcode.js
 ./barcode_flask/__init__.py
 ./barcode_list.py
 ./http_barcodes.py
@@ -14,4 +15,4 @@
 ./README.md
 ./sb_aj_query.py
 ./barcode_list.pdf
-./barcode_flask/static/barcode.js
+
