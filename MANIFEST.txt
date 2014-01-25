@@ -14,3 +14,4 @@
 ./README.md
 ./sb_aj_query.py
 ./barcode_list.pdf
+./barcode_flask/static/barcode.js
