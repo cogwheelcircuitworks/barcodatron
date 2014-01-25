@@ -1,0 +1,16 @@
+./MANIFEST.txt
+./architecture.ppt
+./acrobat.py
+./barcodatron.bat
+./barcode_flask/static/barcode.js
+./barcode_flask/static/WhatsGarbage.jpg
+./barcode_flask/templates/form.html
+./barcode_flask/templates/main.html
+./barcode_flask/__init__.py
+./barcode_list.py
+./http_barcodes.py
+./kitlabels.py
+./logo512x512.jpg
+./README.md
+./sb_aj_query.py
+./barcode_list.pdf

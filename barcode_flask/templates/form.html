@@ -1,0 +1,68 @@
+{# jinja2 HTML Rendering Template for 
+
+  Internal Small Batch Barcode utility
+
+  Why not run this on the server ?
+  Because we are going to print out bar codes on the label printer
+  For that we need local access
+
+#}
+{% extends "bootstrap/base.html" %}
+
+{# #}
+{% block title %}
+SmallBatch Barcode-a-tron
+{% endblock %}
+
+{# #}
+{% block content %}
+<!-- block content -->
+<style>
+  body { 
+    background: url(static/WhatsGarbage.jpg); 
+    background-repeat:no-repeat;  
+  }
+</style>
+
+ <div class="container" >
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        {# #}
+        <br>
+        <br>
+        <h2 style="background:white">
+          <!-- 
+          <img src="/static/WhatsGarbage.jpg" alt="whats garbage?">
+          <i class="icon icon-barcode"></i>
+          -->
+          Barcode-a-tron</h2>
+        <form id="barcode_form" class="form-horizontal"> 
+          <div class="col-md-3">
+            <input id="barcode_input" type="text" class="form-control" name="barcode_input" placeholder="">
+          </div>
+          <div id="barcode_div1" class="col-md-1">
+          </div>
+          <div id="barcode_div2" class="col-md-1">
+          </div>
+          <div id="barcode_div3" class="col-md-1">
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div id="messages" class="col-md-11">
+      </div>
+    </div>
+ </div>
+{% endblock %} 
+
+{# #}
+{% block scripts %}  
+  {{ super() }} {# Call in our scripts *after* bootstrap calls in jquery #}
+  <script type="text/javascript" src="{{ url_for('static', filename='barcode.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='jquery-barcode.js') }}"></script>
+{% endblock %} 
+
+
