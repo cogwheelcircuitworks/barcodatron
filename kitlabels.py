@@ -552,7 +552,7 @@ def genlabels(test=0,paper_size_no=0,printer='acrobat',verbose=0,label_content='
 
 
   global gl_filename
-  gl_filename = os.path.normpath( 'c:/tmp/kitlabels' + str(os.getpid()) + genranstr() + '.pdf' )
+  gl_filename = os.path.normpath( 'kitlabels' + str(os.getpid()) + genranstr() + '.pdf' )
 
   if (file_name != ''):
     gl_filename = file_name
