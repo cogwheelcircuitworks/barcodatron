@@ -552,7 +552,7 @@ def genlabels(test=0,paper_size_no=0,printer='acrobat',verbose=0,label_content='
 
 
   global gl_filename
-  gl_filename = os.path.normpath( 'kitlabels' + str(os.getpid()) + genranstr() + '.pdf' )
+  gl_filename = os.path.normpath( 'tmp/kitlabels' + str(os.getpid()) + genranstr() + '.pdf' )
 
   if (file_name != ''):
     gl_filename = file_name
@@ -693,7 +693,7 @@ def gentestlabels():
   xorg = yorg = margin
 
 
-  canvas = canvas_init('kitlabels.pdf',pagesize=letter,bottomup=1,verbosity=1)
+  canvas = canvas_init('tmp/kitlabels.pdf',pagesize=letter,bottomup=1,verbosity=1)
 
   canvas.setStrokeColorRGB(.33,.33,.33)
   canvas.setFont('Helvetica',10)
