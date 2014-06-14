@@ -1,7 +1,6 @@
 
 Inline-style: 
-![alt text](https://github.com/cogwheelcircuitworks/barcodatron/blob/master/barcode_flask/static/WhatsGarbage.jpg "Logo Title Text 1")
-
+![](https://github.com/cogwheelcircuitworks/barcodatron/raw/master/barcode_flask/static/WhatsGarbage.jpg "Logo Title Text 1") 
 # BARCODATRON
 
 
