@@ -1,5 +1,4 @@
 
-Inline-style: 
 ![](https://github.com/cogwheelcircuitworks/barcodatron/raw/master/barcode_flask/static/WhatsGarbage.jpg "Logo Title Text 1") 
 # BARCODATRON
 
