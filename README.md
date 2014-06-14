@@ -1,4 +1,9 @@
-BARCODATRON
+
+Inline-style: 
+![alt text](https://github.com/cogwheelcircuitworks/barcodatron/blob/master/barcode_flask/static/WhatsGarbage.jpg "Logo Title Text 1")
+
+# BARCODATRON
+
 
 Run a local web server which accepts barcodes read in by a bar code scanner.
 
