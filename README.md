@@ -1,5 +1,5 @@
 
-![](https://github.com/cogwheelcircuitworks/barcodatron/raw/master/barcode_flask/static/WhatsGarbage.jpg "Logo Title Text 1") 
+![](https://github.com/cogwheelcircuitworks/barcodatron/raw/master/logo_with_barcode.jpg "Logo Title Text 1") 
 # BARCODATRON
 
 
