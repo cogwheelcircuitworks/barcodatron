@@ -5,7 +5,6 @@
 
 Run a local web server which accepts barcodes read in by a bar code scanner.
 
-Project web site: http://www.sudobob.com/barcodatron-a-barcode-reader-label-generation-environment/
 
 Based on the bar code, it will either pass request up to the server to get data or
 intercept certain commands in order to print labels 
